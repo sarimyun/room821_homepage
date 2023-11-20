@@ -20,7 +20,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-room821homepage-dev-144553-deployment/amplify-cfn-templates/hosting/template.json",
         "logicalId": "hostingS3AndCloudFront"
       },
-      "lastPushTimeStamp": "2023-11-20T07:05:45.604Z",
+      "lastPushTimeStamp": "2023-11-20T15:39:16.394Z",
       "output": {
         "CloudFrontSecureURL": "https://d2ab160ohjwsc4.cloudfront.net",
         "S3BucketSecureURL": "https://room821homepage-20231120155629-hostingbucket-dev.s3.amazonaws.com",
