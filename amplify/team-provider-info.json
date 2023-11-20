@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-room821homepage-dev-13243-authRole",
-      "UnauthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-13243-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-13243-authRole",
+      "AuthRoleName": "amplify-room821homepage-dev-15413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-15413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-15413-authRole",
       "Region": "ap-northeast-2",
-      "DeploymentBucketName": "amplify-room821homepage-dev-13243-deployment",
-      "UnauthRoleName": "amplify-room821homepage-dev-13243-unauthRole",
-      "StackName": "amplify-room821homepage-dev-13243",
-      "StackId": "arn:aws:cloudformation:ap-northeast-2:121938441748:stack/amplify-room821homepage-dev-13243/6e5c9330-87c2-11ee-bfe8-0606d4b5ef06",
-      "AmplifyAppId": "dynvy8razn302"
+      "DeploymentBucketName": "amplify-room821homepage-dev-15413-deployment",
+      "UnauthRoleName": "amplify-room821homepage-dev-15413-unauthRole",
+      "StackName": "amplify-room821homepage-dev-15413",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:121938441748:stack/amplify-room821homepage-dev-15413/6f92c1e0-87c5-11ee-a19d-0a67564bd7fa",
+      "AmplifyAppId": "dolhwe6nxs7uj"
     }
   }
 }
