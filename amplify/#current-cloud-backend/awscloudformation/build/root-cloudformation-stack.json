@@ -151,6 +151,16 @@
           "Ref": "UnauthRoleName"
         }
       }
+    },
+    "hostingS3AndCloudFront": {
+      "Type": "AWS::CloudFormation::Stack",
+      "Properties": {
+        "TemplateURL": "https://s3.amazonaws.com/amplify-room821homepage-dev-144553-deployment/amplify-cfn-templates/hosting/template.json",
+        "Parameters": {
+          "bucketName": "room821homepage-20231120155629-hostingbucket",
+          "env": "dev"
+        }
+      }
     }
   }
 }

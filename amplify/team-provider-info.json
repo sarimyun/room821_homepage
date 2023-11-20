@@ -10,6 +10,11 @@
       "StackName": "amplify-room821homepage-dev-144553",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:121938441748:stack/amplify-room821homepage-dev-144553/12313f70-8768-11ee-ad88-0a52babc038e",
       "AmplifyAppId": "dgtnlgtnxedna"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
     }
   }
 }
