@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-room821homepage-dev-144553-authRole",
+      "UnauthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-144553-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::121938441748:role/amplify-room821homepage-dev-144553-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-room821homepage-dev-144553-deployment",
+      "UnauthRoleName": "amplify-room821homepage-dev-144553-unauthRole",
+      "StackName": "amplify-room821homepage-dev-144553",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:121938441748:stack/amplify-room821homepage-dev-144553/12313f70-8768-11ee-ad88-0a52babc038e",
+      "AmplifyAppId": "dgtnlgtnxedna"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.Room821web {
+    width: width;
+    height: 3241.50px;
+    background: 'white';
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.NavbarLogoLeft {
+    align-self: stretch;
+    background: 'white';
+    justify-content: center;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.Navbarcontainer {
+    height: 69px;
+    /* 높이 */
+    justify-content: center;
+    /* flex 요소들을 가로축 중앙에 정렬 */
+    align-items: center;
+    /* flex 요소들을 세로축 중앙에 정렬 */
+    display: flex;
+    /* flexbox 레이아웃 적용 */
+}
+
+.NavbarContent {
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.NavbarMenu {
+    width: auto;
+    height: 69px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.NavbarLink {
+    height: 'auto';
+    padding-left: '12px';
+    padding-right: '12px';
+    padding-top: '24px';
+    padding-bottom: '24px';
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.Content {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: '16px';
+    display: flex;
+}
+
+.Description {
+    font-weight: 400;
+    align-self: stretch;
+    text-align: center;
+    color: black;
+    font-size: 24;
+    font-family: Pretendard;
+    letter-spacing: 1.20;
+    word-wrap: break-word;
+}
+
