@@ -51,42 +51,42 @@ function App() {
   return (
     <div className="App">
       <div className="Room821web" style={{ width: width }}>
-        <div className="NavbarLogoLeft" style={{ position: 'fixed', paddingLeft: 0.016 * width, paddingRight: 0.016 * width, background: '#ffffff' }}>
+        <div className="NavbarLogoLeft" style={{ position: 'fixed', paddingLeft: 0.016 * width, paddingRight: 0.016 * width}}>
           <div className="Navbarcontainer">
-            <div className="NavbarContent" style={{ width: 0.968 * width, justifyContent: 'space-between', alignItems: 'center', display: 'flex' }}>
+            <div className="NavbarContent" style={{ width: 0.968 * width}}>
               <div className="Vector" style={{ width: (141 / 1440) * width, height: 23.06 }}>
                 <img onClick = {onHomeClick} src={logoimg} alt='로고' style={{ width: 'auto', height: '100%' }} />
               </div>
               <div className="NavbarMenu" style={{ gap: (32 / 1440) * width }}>
                 <div className="NavbarLink" onClick = {onHomeClick}>
-                  <p className="Home" style={{ color: 'black', fontSize: 14, fontFamily: 'Pretendard', fontWeight: '400', wordWrap: 'break-word' }}>Home</p>
+                  <p className="Navbar_text">Home</p>
                 </div>
                 <div className="NavbarLink" onClick = {onaboutClick}>
-                  <p className="About" style={{ color: 'black', fontSize: 14, fontFamily: 'Pretendard', fontWeight: '400', wordWrap: 'break-word' }}>About</p>
+                  <p className="Navbar_text">About</p>
                 </div>
                 <div className="NavbarLink" onClick = {onservicesClick}>
-                  <p className="Services" style={{ color: 'black', fontSize: 14, fontFamily: 'Pretendard', fontWeight: '400', wordWrap: 'break-word' }}>Services</p>
+                  <p className="Navbar_text">Services</p>
                 </div>
-                <div className="NavbarButton" onClick = {oncontactClick} style={{ height: 'auto', paddingLeft: 20, paddingRight: 20, paddingTop: 8, paddingBottom: 8, background: '#2A4678', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex' }}>
-                  <div className="Contact" style={{ color: 'white', fontSize: 12, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>Contact</div>
+                <div className="NavbarButton" onClick = {oncontactClick}>
+                  <div className="Navbar_text" style={{ color: 'white', fontSize: 12, fontWeight: '500'}}>Contact</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="HeroStack" ref={homeRef} style={{ alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 128, paddingBottom: 64, background: '#F2F4F9', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 80, display: 'flex' }}>
-          <div className="SmallContainer" style={{ width: width, height: 295.83, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 40, display: 'flex' }}>
-            <div className="TitleSection" style={{ alignSelf: 'stretch', height: 295.83, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex' }}>
-              <div className="Content" style={{ alignSelf: 'stretch', height: 214.83, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'flex' }}>
+        <div className="HeroStack" ref={homeRef}>
+          <div className="SmallContainer" style={{ width: width }}>
+            <div className="TitleSection">
+              <div className="Content" style={{ height: 214.83, gap: 24 }}>
                 <div className="Vector" style={{ width: 280, height: 163.83 }}>
                   <img src={vector} alt='벡터' style={{ width: 'auto', height: '100%' }} />
                 </div>
-                <p className="Room821" style={{ height: 27, alignSelf: 'stretch', textAlign: 'center', color: '#212121', fontSize: 18, fontFamily: 'Pretendard', fontWeight: '700', wordWrap: 'break-word' }}>무한한 가능성, Room 821에서 만나보세요.</p>
+                <p className="Room821_description">무한한 가능성, Room 821에서 만나보세요.</p>
               </div>
-              <div className="Actions" style={{ paddingTop: 16, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex' }}>
-                <div className="Button" onClick = {oncontactClick} style={{ paddingLeft: 24, paddingRight: 24, paddingTop: 12, paddingBottom: 12, background: '#2A4678', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex' }}>
-                  <div className="Contact" style={{ color: 'white', fontSize: 12, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>Contact</div>
+              <div className="Actions">
+                <div className="Button" onClick = {oncontactClick}>
+                  <div className="Contact">Contact</div>
                 </div>
               </div>
             </div>
@@ -233,9 +233,9 @@ function App() {
             </div>
           </div>
         </div>
-
-        <p className='Document'>저장된 데이터: {savedData_email}/{savedData_comment}</p> {/* 저장된 데이터 표시 */}
-
+{/*
+        <p className='Document'>저장된 데이터: {savedData_email}/{savedData_comment}</p>
+*/}
         <div className="Footer" style={{ width: width, height: 284, paddingTop: 64, paddingBottom: 8, paddingLeft: 24, paddingRight: 24, background: '#F5F7FA', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 40, display: 'flex' }}>
           <div className="Columns" style={{ width: (960 / 1440) * width, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex' }}>
             <div className="Column" style={{ width: (320 / 1440) * width, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
