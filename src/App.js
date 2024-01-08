@@ -10,6 +10,7 @@ import BlogPage from './js/blog_page/blog_page';
 import RecruitPage from './js/recruit_page/recruit_page';
 import IR from './js/IR/IR'
 import Room821_logo from './assets/Room821_logo.png';
+import './css/global.css';
 
 Amplify.configure(awsExports);
 
