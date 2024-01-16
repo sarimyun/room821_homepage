@@ -25,14 +25,14 @@ function FarmIntroductionPage() {
                 </div>
                 {/* 지금동안 한거 */}
                 <div className="Frame44" style={{ width: '100%', height: 1014, position: 'relative', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex' }}>
-                    <div style={{ left: 368, top: 126, position: 'absolute', color: '#252525', fontSize: 40, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>서비스가 출시되기 전에 많은 것을 이뤄냈어요</div>
+                    <div style={{ left: (1/2)*width-352.5, top: 126, position: 'absolute', color: '#252525', fontSize: 40, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>서비스가 출시되기 전에 많은 것을 이뤄냈어요</div>
                     <div className="Group1" style={{ width: 504, height: 628, left: 474, top: 286, position: 'absolute' }}>
                         <div className="Vector1" style={{ width: 0, height: 628, left: 18, top: 0, position: 'absolute', border: '4px #E5E5E5 solid' }} />
-                        <div className="Frame11" style={{ width: 287, height: 72, left: 64, top: 110, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
+                        <div className="Frame11" style={{ width: 287, height: 72, left: (64/1440)*width, top: 110, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
                             <div className="I" style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>연세-넥슨 √i 창의플랫폼 우수상</div>
                             <div className="S" style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>연세대학교 창업경진대회 S등급 수상</div>
                         </div>
-                        <div className="Frame12" style={{ width: 450, height: 264, left: 64, top: 316, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
+                        <div className="Frame12" style={{ width: 450, height: 264, left: (64/1440)*width, top: 316, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex' }}>
                             <div className="S" style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>연세대학교 창업경진대회 S등급 수상</div>
                             <div style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>캠퍼스타운(연세대학교) 선정기업</div>
                             <div style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>예비창업패키지(연세대학교) 선정기업</div>
@@ -41,12 +41,12 @@ function FarmIntroductionPage() {
                             <div style={{ color: '#8A8A8A', fontSize: 20, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>연세대학교 의과대학 디지털 헬스케어 부트캠프 최우수상</div>
                         </div>
                         <div className="Frame32" style={{ width: 131, height: 38, left: 0, top: 24, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex' }}>
-                            <div className="Ellipse1" style={{ width: 36, height: 36, background: '#5499FF', borderRadius: 9999, border: '6px #F5F5F5 solid' }} />
-                            <div style={{ color: '#252525', fontSize: 32, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>2022</div>
+                            <div className="Ellipse1" style={{ left: 0, top: -4, position: 'absolute', width: 36, height: 36, background: '#5499FF', borderRadius: 9999, border: '6px #F5F5F5 solid' }} />
+                            <div style={{ left: 52, top: 0, position: 'absolute', color: '#252525', fontSize: 32, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>2022</div>
                         </div>
                         <div className="Frame31" style={{ width: 132, height: 38, left: 0, top: 230, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex' }}>
-                            <div className="Ellipse2" style={{ width: 36, height: 36, background: '#5499FF', borderRadius: 9999, border: '6px #F5F5F5 solid' }} />
-                            <div style={{ color: '#252525', fontSize: 32, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>2023</div>
+                            <div className="Ellipse2" style={{ left: 0, top: -4, position: 'absolute', width: 36, height: 36, background: '#5499FF', borderRadius: 9999, border: '6px #F5F5F5 solid' }} />
+                            <div style={{ left: 52, top: 0, position: 'absolute', color: '#252525', fontSize: 32, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>2023</div>
                         </div>
                     </div>
                 </div>

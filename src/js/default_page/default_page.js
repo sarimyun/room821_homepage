@@ -35,7 +35,7 @@ function DefaultPage() {
                 {/* 회사소개 보러가기 */}
                 <div style={{ width: width, height: 765, position: 'relative' }}>
                     <img className="default_farm_introduction" src={default_farm_introduction} alt='default_farm_introduction' style={{ width: (712 / 1440) * width, maxWidth: 712, height: 'auto', right: (91 / 1440) * width, top: 150, position: 'absolute', borderRadius: 24 }} />
-                    <div style={{ left: (117 / 1440) * width, top: 206, position: 'absolute', color: '#252525', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>모두가 상상하는 것을<br />현실로 만들어요</div>
+                    <div style={{ width: (397/1440)*width,left: (117 / 1440) * width, top: 206, position: 'absolute', color: '#252525', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>모두가 상상하는 것을<br />현실로 만들어요</div>
                     <div className="Room821" style={{ width: (471 / 1440) * width, left: (117 / 1440) * width, top: 374, position: 'absolute' }}>
                         <span style={{ color: '#252525', fontSize: 24, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>살아가며 느낄 수 있는 </span>
                         <span style={{ color: '#5499FF', fontSize: 24, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>모든 불편함</span>
@@ -87,8 +87,8 @@ function DefaultPage() {
                 <div className="Frame39" style={{ width: '100%', height: '100%', paddingTop: 158, paddingBottom: 196, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="Frame69" style={{ width: (1263 / 1440) * width, maxWidth: 1263, height: 446, position: 'relative', flexDirection: 'column' }}>
                         <div className="Room821" style={{ color: '#252525', fontSize: 24, fontFamily: 'Pretendard', fontWeight: '500', wordWrap: 'break-word' }}>Room 821의 첫 프로젝트</div>
-                        <img className="Mockup1" src={default_mockup} alt='default_mockup' style={{ width: (591 / 1440) * width, maxWidth: 591, height: 'auto', left: 672, top: 29, position: 'absolute' }} />
-                        <div className="AiNursync" style={{ left: 0, top: 37, position: 'absolute' }}>
+                        <img className="Mockup1" src={default_mockup} alt='default_mockup' style={{ width: (591 / 1440) * width, maxWidth: 591, height: 'auto', left: (672/1440)*width, top: 29, position: 'absolute' }} />
+                        <div className="AiNursync" style={{ width: (698/1440)*width, left: 0, top: 37, position: 'absolute' }}>
                             <span style={{ color: '#252525', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>간호사의 직접간호시간 최대화를 위한<br />AI기반 간호협업 솔루션, </span>
                             <span style={{ color: '#5499FF', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '700', wordWrap: 'break-word' }}>NurSync</span>
                         </div>
@@ -134,12 +134,12 @@ function DefaultPage() {
                     </div>
                 </div>
                 <div className="Frame41" style={{ width: 'auto', height: 380, position: 'relative', background: 'linear-gradient(180deg, #5499FF 0%, rgba(84, 153, 255, 0) 100%)' }}>
-                    <div className="Room821" style={{ left: 432, top: 100, position: 'absolute' }}>
+                    <div className="Room821" style={{ left: (1 / 2) * width - 287.5, top: 100, position: 'absolute' }}>
                         <span style={{ color: '#F5F5F5', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>Room 821과 여정을 </span>
                         <span style={{ color: '#F5F5F5', fontSize: 48, fontFamily: 'Pretendard', fontWeight: '700', wordWrap: 'break-word' }}>함께해요</span></div>
                     <div className="Frame36"
                         onClick={goToRecruit}
-                        style={{ paddingLeft: 36, paddingRight: 36, paddingTop: 12, paddingBottom: 12, left: 608, top: 220, position: 'absolute', background: '#252525', borderRadius: 16, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex' }}
+                        style={{ paddingLeft: 36, paddingRight: 36, paddingTop: 12, paddingBottom: 12, left: (1 / 2) * width - 125, top: 220, position: 'absolute', background: '#252525', borderRadius: 16, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex' }}
                     >
                         <div style={{ color: 'white', fontSize: 24, fontFamily: 'Pretendard', fontWeight: '600', wordWrap: 'break-word' }}>채용 관련 문의하기</div>
                     </div>
